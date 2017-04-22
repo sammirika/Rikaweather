@@ -1,0 +1,11 @@
+<litepal>
+
+    <dbname value = "rika_weather" />
+    <version value="1" />
+    <list>
+        <mapping class="com.example.sammirika.rikaweather.db.Province" />
+        <mapping class="com.example.sammirika.rikaweather.db.City" />
+        <mapping class="com.example.sammirika.rikaweather.db.County" />
+    </list>
+
+</litepal>
