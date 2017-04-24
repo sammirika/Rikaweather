@@ -11,6 +11,6 @@ public class AQI {
 
         public String aqi;
 
-        public String pn25;
+        public String pm25;
     }
 }
