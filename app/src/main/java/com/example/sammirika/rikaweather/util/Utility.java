@@ -36,11 +36,11 @@ public class Utility {
         }
         return false;
     }
-    public static boolean handleCityResponse(String response, int provinceId){
-        if(!TextUtils.isEmpty(response)){
-            try{
+    public static boolean handleCityResponse(String response, int provinceId) {
+        if (!TextUtils.isEmpty(response)) {
+            try {
                 JSONArray allCities = new JSONArray(response);
-                for(int i=0;i<allCities.length();i++){
+                for (int i = 0; i < allCities.length(); i++) {
                     JSONObject cityObject = allCities.getJSONObject(i);
                     City city = new City();
                     city.setCityName(cityObject.getString("name"));
@@ -49,7 +49,7 @@ public class Utility {
                     city.save();
                 }
                 return true;
-            }catch (JSONException e){
+            } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
