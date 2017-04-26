@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="15dp">
     <TextView
-        android:id="@+id/data_text"
+        android:id="@+id/date_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
